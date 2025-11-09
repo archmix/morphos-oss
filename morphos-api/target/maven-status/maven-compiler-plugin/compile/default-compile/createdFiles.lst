@@ -1,0 +1,16 @@
+morphos/api/interfaces/Table.class
+morphos/api/interfaces/ObjectType.class
+morphos/api/interfaces/ForeignKey$Rule.class
+morphos/api/interfaces/Field.class
+morphos/api/interfaces/Column$ColumnBuilder.class
+morphos/api/interfaces/ForeignKey.class
+morphos/api/interfaces/AttributeType.class
+morphos/api/interfaces/ForeignKey$ForeignKeyBuilder.class
+morphos/api/interfaces/Column.class
+morphos/api/interfaces/MorphosReflector.class
+morphos/api/interfaces/Attributes.class
+morphos/api/interfaces/MorphosCache.class
+morphos/api/interfaces/PrimaryKey.class
+morphos/api/interfaces/Schema.class
+morphos/api/interfaces/Column$Type.class
+morphos/api/interfaces/Table$TableBuilder.class

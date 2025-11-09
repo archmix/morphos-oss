@@ -1,0 +1,9 @@
+morphos/test/MorphosBaseTest.class
+morphos/test/Bands.class
+META-INF/services/spectra.interfaces.Spectrum
+morphos/test/ConnectionProperties.class
+morphos/test/UsersSpectrum.class
+morphos/test/MorphosSpectrum.class
+morphos/test/SalesSpectrum.class
+morphos/test/DataTypesSpectrum.class
+morphos/test/AuditSpectrum.class

@@ -1,0 +1,11 @@
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/AttributeType.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/Attributes.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/Column.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/Field.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/ForeignKey.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/MorphosCache.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/MorphosReflector.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/ObjectType.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/PrimaryKey.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/Schema.java
+/home/braz/Documents/workspace/morphos-oss/morphos-api/src/main/java/morphos/api/interfaces/Table.java

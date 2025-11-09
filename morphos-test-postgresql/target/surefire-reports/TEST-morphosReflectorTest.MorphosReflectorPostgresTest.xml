@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="morphosReflectorTest.MorphosReflectorPostgresTest" time="16.318" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/braz/Documents/workspace/morphos-oss/morphos-test-postgresql/target/test-classes:/home/braz/Documents/workspace/morphos-oss/morphos-test-postgresql/target/classes:/home/braz/Documents/workspace/morphos-oss/morphos-test/target/classes:/home/braz/Documents/workspace/morphos-oss/morphos-api/target/classes:/home/braz/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/braz/.m2/repository/org/archmix/spectra-oss/0.1.0-SNAPSHOT/spectra-oss-0.1.0-SNAPSHOT.jar:/home/braz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.14.0/junit-jupiter-api-5.14.0.jar:/home/braz/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/braz/.m2/repository/org/junit/platform/junit-platform-commons/1.14.0/junit-platform-commons-1.14.0.jar:/home/braz/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/braz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.14.0/junit-jupiter-engine-5.14.0.jar:/home/braz/.m2/repository/org/junit/platform/junit-platform-engine/1.14.0/junit-platform-engine-1.14.0.jar:/home/braz/.m2/repository/org/archmix/legolas-provided/1.0.15/legolas-provided-1.0.15.jar:/home/braz/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/ucp/19.3.0.0/ucp-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/oraclepki-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/osdt_core/19.3.0.0/osdt_core-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/simplefan/19.3.0.0/simplefan-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/ons/19.3.0.0/ons-19.3.0.0.jar:/home/braz/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/13.2.1.jre11/mssql-jdbc-13.2.1.jre11.jar:/home/braz/.m2/repository/org/postgresql/postgresql/42.7.8/postgresql-42.7.8.jar:/home/braz/.m2/repository/org/checkerframework/checker-qual/3.49.5/checker-qual-3.49.5.jar:/home/braz/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/home/braz/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:/home/braz/.m2/repository/org/archmix/legolas-core/1.0.15/legolas-core-1.0.15.jar:/home/braz/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar:/home/braz/.m2/repository/org/archmix/compozitor-processor/0.1.19/compozitor-processor-0.1.19.jar:/home/braz/.m2/repository/org/archmix/toolbox-data/0.0.6/toolbox-data-0.0.6.jar:/home/braz/.m2/repository/org/archmix/migrami-core/0.0.15/migrami-core-0.0.15.jar:/home/braz/.m2/repository/org/archmix/migrami-api/0.0.15/migrami-api-0.0.15.jar:/home/braz/.m2/repository/org/archmix/toolbox-java/0.0.6/toolbox-java-0.0.6.jar:/home/braz/.m2/repository/org/archmix/toolbox-validation/0.0.6/toolbox-validation-0.0.6.jar:/home/braz/.m2/repository/org/slf4j/slf4j-simple/2.0.17/slf4j-simple-2.0.17.jar:/home/braz/.m2/repository/org/archmix/legolas-postgresql/1.0.15/legolas-postgresql-1.0.15.jar:/home/braz/.m2/repository/org/archmix/legolas-sql/1.0.15/legolas-sql-1.0.15.jar:/home/braz/.m2/repository/org/archmix/legolas-docker/1.0.15/legolas-docker-1.0.15.jar:/home/braz/.m2/repository/org/testcontainers/testcontainers/1.21.3/testcontainers-1.21.3.jar:/home/braz/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/braz/.m2/repository/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8.jar:/home/braz/.m2/repository/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar:/home/braz/.m2/repository/com/github/docker-java/docker-java-api/3.4.2/docker-java-api-3.4.2.jar:/home/braz/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar:/home/braz/.m2/repository/com/github/docker-java/docker-java-transport-zerodep/3.4.2/docker-java-transport-zerodep-3.4.2.jar:/home/braz/.m2/repository/com/github/docker-java/docker-java-transport/3.4.2/docker-java-transport-3.4.2.jar:/home/braz/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/braz/.m2/repository/org/testcontainers/jdbc/1.21.3/jdbc-1.21.3.jar:/home/braz/.m2/repository/org/testcontainers/database-commons/1.21.3/database-commons-1.21.3.jar:/home/braz/.m2/repository/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar:/home/braz/.m2/repository/org/archmix/migrami-sql/0.0.15/migrami-sql-0.0.15.jar:/home/braz/.m2/repository/org/testcontainers/postgresql/1.21.3/postgresql-1.21.3.jar:/home/braz/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/braz/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/braz/.m2/repository/org/archmix/compozitor-test/0.1.19/compozitor-test-0.1.19.jar:/home/braz/.m2/repository/org/mockito/mockito-core/5.20.0/mockito-core-5.20.0.jar:/home/braz/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:/home/braz/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar:/home/braz/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/braz/.m2/repository/com/google/testing/compile/compile-testing/0.23.0/compile-testing-0.23.0.jar:/home/braz/.m2/repository/com/google/truth/truth/1.4.5/truth-1.4.5.jar:/home/braz/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/braz/.m2/repository/org/ow2/asm/asm/9.8/asm-9.8.jar:/home/braz/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/home/braz/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/braz/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/braz/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/braz/.m2/repository/com/google/auto/value/auto-value-annotations/1.11.0/auto-value-annotations-1.11.0.jar:/home/braz/.m2/repository/com/google/auto/auto-common/1.2.2/auto-common-1.2.2.jar:/home/braz/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/braz/Documents/workspace/morphos-oss/morphos-test-postgresql/target/surefire/surefirebooter-20251109105803970_10.jar /home/braz/Documents/workspace/morphos-oss/morphos-test-postgresql/target/surefire 2025-11-09T10-57-16_302-jvmRun1 surefire-20251109105803970_8tmp surefire_1-20251109105803970_9tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/braz/Documents/workspace/morphos-oss/morphos-test-postgresql/target/test-classes:/home/braz/Documents/workspace/morphos-oss/morphos-test-postgresql/target/classes:/home/braz/Documents/workspace/morphos-oss/morphos-test/target/classes:/home/braz/Documents/workspace/morphos-oss/morphos-api/target/classes:/home/braz/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/braz/.m2/repository/org/archmix/spectra-oss/0.1.0-SNAPSHOT/spectra-oss-0.1.0-SNAPSHOT.jar:/home/braz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.14.0/junit-jupiter-api-5.14.0.jar:/home/braz/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/braz/.m2/repository/org/junit/platform/junit-platform-commons/1.14.0/junit-platform-commons-1.14.0.jar:/home/braz/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/braz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.14.0/junit-jupiter-engine-5.14.0.jar:/home/braz/.m2/repository/org/junit/platform/junit-platform-engine/1.14.0/junit-platform-engine-1.14.0.jar:/home/braz/.m2/repository/org/archmix/legolas-provided/1.0.15/legolas-provided-1.0.15.jar:/home/braz/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/ucp/19.3.0.0/ucp-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/oraclepki-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/osdt_core/19.3.0.0/osdt_core-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/simplefan/19.3.0.0/simplefan-19.3.0.0.jar:/home/braz/.m2/repository/com/oracle/ojdbc/ons/19.3.0.0/ons-19.3.0.0.jar:/home/braz/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/13.2.1.jre11/mssql-jdbc-13.2.1.jre11.jar:/home/braz/.m2/repository/org/postgresql/postgresql/42.7.8/postgresql-42.7.8.jar:/home/braz/.m2/repository/org/checkerframework/checker-qual/3.49.5/checker-qual-3.49.5.jar:/home/braz/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/home/braz/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:/home/braz/.m2/repository/org/archmix/legolas-core/1.0.15/legolas-core-1.0.15.jar:/home/braz/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar:/home/braz/.m2/repository/org/archmix/compozitor-processor/0.1.19/compozitor-processor-0.1.19.jar:/home/braz/.m2/repository/org/archmix/toolbox-data/0.0.6/toolbox-data-0.0.6.jar:/home/braz/.m2/repository/org/archmix/migrami-core/0.0.15/migrami-core-0.0.15.jar:/home/braz/.m2/repository/org/archmix/migrami-api/0.0.15/migrami-api-0.0.15.jar:/home/braz/.m2/repository/org/archmix/toolbox-java/0.0.6/toolbox-java-0.0.6.jar:/home/braz/.m2/repository/org/archmix/toolbox-validation/0.0.6/toolbox-validation-0.0.6.jar:/home/braz/.m2/repository/org/slf4j/slf4j-simple/2.0.17/slf4j-simple-2.0.17.jar:/home/braz/.m2/repository/org/archmix/legolas-postgresql/1.0.15/legolas-postgresql-1.0.15.jar:/home/braz/.m2/repository/org/archmix/legolas-sql/1.0.15/legolas-sql-1.0.15.jar:/home/braz/.m2/repository/org/archmix/legolas-docker/1.0.15/legolas-docker-1.0.15.jar:/home/braz/.m2/repository/org/testcontainers/testcontainers/1.21.3/testcontainers-1.21.3.jar:/home/braz/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/braz/.m2/repository/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8.jar:/home/braz/.m2/repository/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar:/home/braz/.m2/repository/com/github/docker-java/docker-java-api/3.4.2/docker-java-api-3.4.2.jar:/home/braz/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar:/home/braz/.m2/repository/com/github/docker-java/docker-java-transport-zerodep/3.4.2/docker-java-transport-zerodep-3.4.2.jar:/home/braz/.m2/repository/com/github/docker-java/docker-java-transport/3.4.2/docker-java-transport-3.4.2.jar:/home/braz/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/braz/.m2/repository/org/testcontainers/jdbc/1.21.3/jdbc-1.21.3.jar:/home/braz/.m2/repository/org/testcontainers/database-commons/1.21.3/database-commons-1.21.3.jar:/home/braz/.m2/repository/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar:/home/braz/.m2/repository/org/archmix/migrami-sql/0.0.15/migrami-sql-0.0.15.jar:/home/braz/.m2/repository/org/testcontainers/postgresql/1.21.3/postgresql-1.21.3.jar:/home/braz/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/braz/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/braz/.m2/repository/org/archmix/compozitor-test/0.1.19/compozitor-test-0.1.19.jar:/home/braz/.m2/repository/org/mockito/mockito-core/5.20.0/mockito-core-5.20.0.jar:/home/braz/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:/home/braz/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar:/home/braz/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/braz/.m2/repository/com/google/testing/compile/compile-testing/0.23.0/compile-testing-0.23.0.jar:/home/braz/.m2/repository/com/google/truth/truth/1.4.5/truth-1.4.5.jar:/home/braz/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/home/braz/.m2/repository/org/ow2/asm/asm/9.8/asm-9.8.jar:/home/braz/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/home/braz/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/home/braz/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/braz/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/braz/.m2/repository/com/google/auto/value/auto-value-annotations/1.11.0/auto-value-annotations-1.11.0.jar:/home/braz/.m2/repository/com/google/auto/auto-common/1.2.2/auto-common-1.2.2.jar:/home/braz/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/braz"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/braz/Documents/workspace/morphos-oss/morphos-test-postgresql"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/braz/Documents/workspace/morphos-oss/morphos-test-postgresql/target/surefire/surefirebooter-20251109105803970_10.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.27+6-post-Ubuntu-0ubuntu120.04"/>
+    <property name="user.name" value="braz"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-139-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="jnidispatch.path" value="/home/braz/.cache/JNA/temp/jna8526594044262770784.tmp"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib"/>
+    <property name="localRepository" value="/home/braz/.m2/repository"/>
+    <property name="jna.loaded" value="true"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.27"/>
+    <property name="user.dir" value="/home/braz/Documents/workspace/morphos-oss/morphos-test-postgresql"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.27+6-post-Ubuntu-0ubuntu120.04"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testUsersSchema(RunningEnvironment)[1]" classname="morphosReflectorTest.MorphosReflectorPostgresTest" time="0.016">
+    <system-err><![CDATA[[main] INFO legolas.provided.infra.LegolasExtension - Starting Legolas global test environment...
+[legolas-global-thread] INFO legolas.runtime.core.interfaces.LifecycleEnvironment - Running starters...
+[legolas-global-thread] INFO org.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+[legolas-global-thread] INFO org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[legolas-global-thread] INFO legolas.runtime.core.interfaces.StarterRunner - PostgreSQL Container initializing
+[legolas-global-thread] INFO org.testcontainers.DockerClientFactory - Testcontainers version: 1.21.3
+[legolas-global-thread] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[legolas-global-thread] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+[legolas-global-thread] INFO org.testcontainers.DockerClientFactory - Docker host IP address is localhost
+[legolas-global-thread] INFO org.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.1.1
+  API Version: 1.49
+  Operating System: Ubuntu 20.04.6 LTS
+  Total Memory: 29497 MB
+[legolas-global-thread] INFO org.testcontainers.DockerClientFactory - Checking the system...
+[legolas-global-thread] INFO org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+[legolas-global-thread] INFO tc.postgres:9.6.12 - Creating container for image: postgres:9.6.12
+[legolas-global-thread] INFO org.testcontainers.utility.RegistryAuthLocator - Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: postgres:9.6.12, configFile: /home/braz/.docker/config.json, configEnv: DOCKER_AUTH_CONFIG). Falling back to docker-java default behaviour. Exception message: Status 404: No config supplied. Checked in order: /home/braz/.docker/config.json (file not found), DOCKER_AUTH_CONFIG (not set)
+[legolas-global-thread] INFO tc.testcontainers/ryuk:0.12.0 - Creating container for image: testcontainers/ryuk:0.12.0
+[legolas-global-thread] INFO tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 is starting: 36d6d865508372f7bab4f1917036b1120f67c51276aa68c0008d4fabfe712646
+[legolas-global-thread] INFO tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 started in PT1.10888S
+[legolas-global-thread] INFO tc.postgres:9.6.12 - Container postgres:9.6.12 is starting: 877c4aa25f637514de4ba7efa0df45ae06b6637078bc9ac0a8ebf09555b5a266
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: The files belonging to this database system will be owned by user "postgres".
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: This user must also own the server process.
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: The database cluster will be initialized with locale "en_US.utf8".
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: The default database encoding has accordingly been set to "UTF8".
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: The default text search configuration will be set to "english".
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: Data page checksums are disabled.
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: fixing permissions on existing directory /var/lib/postgresql/data ... ok
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: creating subdirectories ... ok
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: selecting default max_connections ... 100
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: selecting default shared_buffers ... 128MB
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: selecting dynamic shared memory implementation ... posix
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: creating configuration files ... ok
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: running bootstrap script ... ok
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: performing post-bootstrap initialization ... ok
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: syncing data to disk ... ok
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: Success. You can now start the database server using:
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT:     pg_ctl -D /var/lib/postgresql/data -l logfile start
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDERR: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDERR: WARNING: enabling "trust" authentication for local connections
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDERR: You can change this by editing pg_hba.conf or using the option -A, or
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDERR: --auth-local and --auth-host, the next time you run initdb.
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: waiting for server to start....LOG:  database system was shut down at 2025-11-09 13:58:15 UTC
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: LOG:  MultiXact member wraparound protections are now enabled
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: LOG:  autovacuum launcher started
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: LOG:  database system is ready to accept connections
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT:  done
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: server started
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: CREATE DATABASE
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: waiting for server to shut down...LOG:  received fast shutdown request
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: .LOG:  aborting any active transactions
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: LOG:  autovacuum launcher shutting down
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: LOG:  shutting down
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: LOG:  database system is shut down
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT:  done
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: server stopped
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: PostgreSQL init process complete; ready for start up.
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDOUT: 
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDERR: LOG:  database system was shut down at 2025-11-09 13:58:19 UTC
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDERR: LOG:  MultiXact member wraparound protections are now enabled
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDERR: LOG:  autovacuum launcher started
+[docker-java-stream-1063386478] INFO legolas.docker.interfaces.DockerStarter - STDERR: LOG:  database system is ready to accept connections
+[legolas-global-thread] INFO tc.postgres:9.6.12 - Container postgres:9.6.12 started in PT13.220326S
+[legolas-global-thread] INFO tc.postgres:9.6.12 - Container is started (JDBC URL: jdbc:postgresql://localhost:5432/test?loggerLevel=OFF)
+[legolas-global-thread] INFO legolas.runtime.core.interfaces.LifecycleEnvironment - Running bootstrapers...
+[legolas-global-thread] INFO legolas.runtime.core.interfaces.LifecycleEnvironment - Running migrations...
+[legolas-global-thread] INFO legolas.runtime.core.interfaces.MigrationRunner - Running migration migration.postgre
+[legolas-global-thread] INFO migrami.sql.interfaces.MigramiSQLExecutor - Applying migration file V001_Create_Tables.sql
+[main] INFO spectra.interfaces.Spectra - Revealing spectrum  for band USERS
+[main] INFO morphos.test.MorphosSpectrum - Actual column id type UUID. Trying to validate over [UUID, CHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column username type VARCHAR. Trying to validate over [VARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column email type VARCHAR. Trying to validate over [VARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column created_at type TIMESTAMP. Trying to validate over [TIMESTAMP, TIMESTAMP_WITH_TIMEZONE]
+[main] INFO morphos.test.MorphosSpectrum - Actual column updated_at type TIMESTAMP. Trying to validate over [TIMESTAMP, TIMESTAMP_WITH_TIMEZONE]
+[main] INFO morphos.test.MorphosSpectrum - Actual column active type BIT. Trying to validate over [BOOLEAN, BIT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column id type BIGINT. Trying to validate over [BIGINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column name type VARCHAR. Trying to validate over [VARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column description type VARCHAR. Trying to validate over [VARCHAR, NVARCHAR, LONGVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column role_id type BIGINT. Trying to validate over [BIGINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column user_id type UUID. Trying to validate over [UUID, CHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column role_id type BIGINT. Trying to validate over [BIGINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column user_id type UUID. Trying to validate over [UUID, CHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column assigned_at type TIMESTAMP. Trying to validate over [TIMESTAMP_WITH_TIMEZONE, TIMESTAMP]
+]]></system-err>
+  </testcase>
+  <testcase name="testAuditSchema(RunningEnvironment)[1]" classname="morphosReflectorTest.MorphosReflectorPostgresTest" time="0.003">
+    <system-err><![CDATA[[main] INFO spectra.interfaces.Spectra - Revealing spectrum  for band AUDIT
+[main] INFO morphos.test.MorphosSpectrum - Actual column id type BIGINT. Trying to validate over [BIGINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column table_name type VARCHAR. Trying to validate over [VARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column record_id type VARCHAR. Trying to validate over [BIGINT, VARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column operation type VARCHAR. Trying to validate over [CHAR, VARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column changed_at type TIMESTAMP. Trying to validate over [TIMESTAMP]
+[main] INFO morphos.test.MorphosSpectrum - Actual column changed_by type VARCHAR. Trying to validate over [VARCHAR, NVARCHAR]
+]]></system-err>
+  </testcase>
+  <testcase name="testSalesSchema(RunningEnvironment)[1]" classname="morphosReflectorTest.MorphosReflectorPostgresTest" time="0.005">
+    <system-err><![CDATA[[main] INFO spectra.interfaces.Spectra - Revealing spectrum  for band SALES
+[main] INFO morphos.test.MorphosSpectrum - Actual column id type BIGINT. Trying to validate over [BIGINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column full_name type VARCHAR. Trying to validate over [NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column document_number type VARCHAR. Trying to validate over [NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column email type VARCHAR. Trying to validate over [NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column registered_at type TIMESTAMP. Trying to validate over [TIMESTAMP]
+[main] INFO morphos.test.MorphosSpectrum - Actual column id type BIGINT. Trying to validate over [BIGINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column name type VARCHAR. Trying to validate over [NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column price type NUMERIC. Trying to validate over [DECIMAL, NUMERIC]
+[main] INFO morphos.test.MorphosSpectrum - Actual column stock type INTEGER. Trying to validate over [NUMERIC, INTEGER]
+[main] INFO morphos.test.MorphosSpectrum - Actual column category type VARCHAR. Trying to validate over [VARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column id type BIGINT. Trying to validate over [BIGINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column customer_id type BIGINT. Trying to validate over [BIGINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column created_at type TIMESTAMP. Trying to validate over [TIMESTAMP]
+[main] INFO morphos.test.MorphosSpectrum - Actual column status type VARCHAR. Trying to validate over [NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column total_amount type NUMERIC. Trying to validate over [NUMERIC, DECIMAL]
+[main] INFO morphos.test.MorphosSpectrum - Actual column order_id type BIGINT. Trying to validate over [BIGINT, INTEGER]
+[main] INFO morphos.test.MorphosSpectrum - Actual column order_id type BIGINT. Trying to validate over [BIGINT, INTEGER]
+[main] INFO morphos.test.MorphosSpectrum - Actual column product_id type BIGINT. Trying to validate over [BIGINT, INTEGER]
+[main] INFO morphos.test.MorphosSpectrum - Actual column product_id type BIGINT. Trying to validate over [BIGINT, INTEGER]
+[main] INFO morphos.test.MorphosSpectrum - Actual column quantity type INTEGER. Trying to validate over [INTEGER]
+[main] INFO morphos.test.MorphosSpectrum - Actual column price type NUMERIC. Trying to validate over [NUMERIC, DECIMAL]
+]]></system-err>
+  </testcase>
+  <testcase name="testDemoSchema(RunningEnvironment)[1]" classname="morphosReflectorTest.MorphosReflectorPostgresTest" time="0.006">
+    <system-err><![CDATA[[main] INFO spectra.interfaces.Spectra - Revealing spectrum  for band DEMO
+[main] INFO morphos.test.MorphosSpectrum - Actual column id type BIGINT. Trying to validate over [BIGINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column small_id type SMALLINT. Trying to validate over [SMALLINT]
+[main] INFO morphos.test.MorphosSpectrum - Actual column regular_id type INTEGER. Trying to validate over [INTEGER]
+[main] INFO morphos.test.MorphosSpectrum - Actual column notes type CHAR. Trying to validate over [NCHAR, CHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column code type VARCHAR. Trying to validate over [NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column amount type NUMERIC. Trying to validate over [NUMERIC, DECIMAL]
+[main] INFO morphos.test.MorphosSpectrum - Actual column price type DOUBLE. Trying to validate over [DECIMAL, NUMERIC, DOUBLE]
+[main] INFO morphos.test.MorphosSpectrum - Actual column ratio type REAL. Trying to validate over [REAL]
+[main] INFO morphos.test.MorphosSpectrum - Actual column precision_value type DOUBLE. Trying to validate over [DOUBLE]
+[main] INFO morphos.test.MorphosSpectrum - Actual column active type BIT. Trying to validate over [BIT, BOOLEAN]
+[main] INFO morphos.test.MorphosSpectrum - Actual column bitmask type BIT. Trying to validate over [BIT, BINARY]
+[main] INFO morphos.test.MorphosSpectrum - Actual column binary_data type BINARY. Trying to validate over [BLOB, LONGVARBINARY, BINARY, VARBINARY]
+[main] INFO morphos.test.MorphosSpectrum - Actual column created_at type TIMESTAMP. Trying to validate over [TIMESTAMP]
+[main] INFO morphos.test.MorphosSpectrum - Actual column updated_at type TIMESTAMP. Trying to validate over [TIMESTAMP_WITH_TIMEZONE, TIMESTAMP]
+[main] INFO morphos.test.MorphosSpectrum - Actual column birth_date type DATE. Trying to validate over [DATE]
+[main] INFO morphos.test.MorphosSpectrum - Actual column wake_time type TIME. Trying to validate over [TIME]
+[main] INFO morphos.test.MorphosSpectrum - Actual column wake_time_tz type TIME. Trying to validate over [TIME_WITH_TIMEZONE, TIME, TIMESTAMP]
+[main] INFO morphos.test.MorphosSpectrum - Actual column interval_field type INTERVAL. Trying to validate over [INTERVAL, NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column user_uuid type UUID. Trying to validate over [UUID, CHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column metadata type JSON. Trying to validate over [JSON, LONGVARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column preferences type JSON. Trying to validate over [JSON, LONGVARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column tags type ARRAY. Trying to validate over [ARRAY, LONGVARCHAR, NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column ip_address type INET. Trying to validate over [INET, NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column network_range type CIDR. Trying to validate over [CIDR, NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column mac_address type MACADDR. Trying to validate over [MACADDR, NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column xml_data type XML. Trying to validate over [XML, LONGVARCHAR, LONG_NVARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column status type VARCHAR. Trying to validate over [ENUM, CHAR, NVARCHAR, VARCHAR]
+[main] INFO morphos.test.MorphosSpectrum - Actual column score type INTEGER. Trying to validate over [INTEGER]
+[main] INFO morphos.test.MorphosSpectrum - Actual column country_code type CHAR. Trying to validate over [NCHAR, CHAR]
+]]></system-err>
+  </testcase>
+</testsuite>
